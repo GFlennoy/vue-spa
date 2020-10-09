@@ -10,8 +10,8 @@ module.exports = function setupDevServer (app, onUpdate) {
     clientConfig.entry.app
   ]
   clientConfig.plugins.push(
-    new webpack.HotModuleReplacementPlugin()
-    // new webpack.NoEmitOnErrorsPlugin()
+    new webpack.HotModuleReplacementPlugin(),
+    new webpack.NoEmitOnErrorsPlugin()
   )
   const clientCompiler = webpack(clientConfig)
   app.use(

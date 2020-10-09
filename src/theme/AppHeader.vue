@@ -2,7 +2,7 @@
   <nav class="nav has-shadow">
     <div class="container">
       <router-link
-        to="/"
+        to="/category/front-end"
         exact
       >
         <img

@@ -17,6 +17,7 @@
           <div class="field">
             <div class="control">
               <input
+                v-model="username"
                 class="input"
                 type="text"
                 placeholder="Your username"

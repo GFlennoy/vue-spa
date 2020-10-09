@@ -1,0 +1,1 @@
+[![Build Status](https://travis-ci.org/GFlennoy/vue-spa.svg?branch=main)](https://travis-ci.org/GFlennoy/vue-spa)
